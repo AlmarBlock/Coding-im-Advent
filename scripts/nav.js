@@ -1,8 +1,4 @@
-if (month == 12) {
-    window.location = "../toearly.html";
-}
-
-if (PageDate > today) {
+if (month !== 12 || PageDate > today) {
     window.location = "../toearly.html";
 }
 
