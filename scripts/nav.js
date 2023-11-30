@@ -2,7 +2,7 @@ if (month == 12) {
     window.location = "../toearly.html";
 }
 
-if (PageDate < today) {
+if (PageDate > today) {
     window.location = "../toearly.html";
 }
 
