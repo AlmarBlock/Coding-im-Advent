@@ -1,0 +1,36 @@
+body{
+    line-height: 20px;
+}
+
+.clock{
+    color: rgb(71, 71, 71);
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.countdown{
+    margin-bottom: 80px;
+}
+
+.boxen{
+    width: 200px;
+    height: 120px;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.clock-digits{
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.clock-name{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: -5px;
+}
