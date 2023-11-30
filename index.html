@@ -6,6 +6,12 @@
     <link rel="icon" type="image/png" href="./images/icons/home.png">
     <link rel="manifest" href="./msc/site.webmanifest">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/timer.css">
+    <style>
+        .menu {
+            display: none;
+        }
+    </style>
     <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon/apple-touch-icon.png">
 </head>
 <body>
@@ -13,6 +19,29 @@
     <center><h1>Coding im Advent</h1></center>
     </header>
     <h1></h1>
+<indexTimer id="indexTimer">
+    <center><h1 style="font-size: 35px;">Erstes Türchen in:</h1></center>
+    <center>
+        <div id="clock" class="clock">
+          <div class="boxen">
+            <div id="clock-days" class="clock-digits">00</div>
+            <div class="clock-name">Tage</div>
+          </div>
+          <div class="boxen">
+            <div id="clock-hours" class="clock-digits">00</div>
+            <div class="clock-name">Stunden</div>
+          </div>
+          <div class="boxen">
+            <div id="clock-minutes" class="clock-digits">00</div>
+            <div class="clock-name">Minuten</div>
+          </div>
+          <div class="boxen">
+            <div id="clock-seconds" class="clock-digits">00</div>
+            <div class="clock-name">Sekunden</div>
+          </div>
+        </div>
+    </center>
+</indexTimer>
     <center><nav>
     <a class="menu" id="day01" href="./pages/day01.html">Aufgabe des Tages</a>
     <a class="menu" id="day02" href="./pages/day02.html">Aufgabe des Tages</a>
@@ -43,4 +72,5 @@
 </body>
 <script src="./scripts/time.js"></script>
 <script src="./scripts/index.js"></script>
+<script src="./scripts/timer.js"></script>
 </html>

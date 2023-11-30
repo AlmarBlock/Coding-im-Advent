@@ -1,4 +1,10 @@
-var enddate = '2023/12/1 00:00';
+const timer = document.getElementById('indexTimer');
+
+if (month == 12) {
+  timer.style.display = "none";
+}
+
+var enddate = '2023/12/01 00:00';
 
     function _CreatePrintibleNumber(numb, size) {
       var s = "0" + numb;
@@ -37,6 +43,9 @@ var enddate = '2023/12/1 00:00';
           hours.innerHTML = _CreatePrintibleNumber(time.hours, 2);
           minutes.innerHTML = _CreatePrintibleNumber(time.minutes, 2);
           seconds.innerHTML = _CreatePrintibleNumber(time.seconds, 2);
+          if (time.total <= 1000) {
+            timer.style.display = "none";
+          }
         }
       });
     }
