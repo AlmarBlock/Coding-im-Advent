@@ -8,8 +8,11 @@ let keywords = ['for', 'in', 'if', 'while', 'else'];
 let specialChars = ['(', ')'];
 let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 let operators = ['not', 'or', 'and', 'True', 'False', 'None', 'var', 'const', 'let', 'func', 'def'];
-let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite'];
+let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable'];
 let specialKeywords = ['range'];
+let strings = ['"True"'];
+
+
 
 keywords.forEach(keyword => {
     let regex = new RegExp(`\\b${keyword}\\b`, 'g');
@@ -39,6 +42,11 @@ varibles.forEach(varible => {
 specialKeywords.forEach(specialKeyword => {
     let regex = new RegExp(`\\b${specialKeyword}\\b`, 'g');
     preContent = preContent.replace(regex, `<green>${specialKeyword}</green>`);
+});
+
+strings.forEach(t => {
+    let regex = new RegExp(/"([^"]*)"/g);
+    preContent = preContent.replace(regex, `<orange>${strings}</orange>`);
 });
 
 document.getElementById('code').innerHTML = preContent;
