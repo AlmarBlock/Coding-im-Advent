@@ -7,7 +7,8 @@ let preContent = document.getElementById('code').innerHTML;
 let keywords = ['for', 'in', 'if', 'while', 'else'];
 let specialChars = ['(', ')', '[', ']', '{', '}'];
 let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','len'];
-let operators = ['not', 'or', 'and', 'True', 'False', 'None', 'var', 'const', 'let', 'func', 'def'];
+let operators = ['not', 'or', 'and', 'var', 'const', 'let', 'func', 'def'];
+let specialOperators = ['True', 'False', 'None'];
 let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array'];
 let specialKeywords = ['range'];
 let strings = ['"True"'];
@@ -30,6 +31,11 @@ numbers.forEach(number => {
 operators.forEach(operator => {
     let regex = new RegExp(`\\b${operator}\\b`, 'g');
     preContent = preContent.replace(regex, `<blue>${operator}</blue>`);
+});
+
+specialOperators.forEach(specialOperator => {
+    let regex = new RegExp(`\\b${specialOperator}\\b`, 'g');
+    preContent = preContent.replace(regex, `<lightlightblue>${specialOperator}</lightlightblue>`);
 });
 
 varibles.forEach(varible => {

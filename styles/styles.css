@@ -80,18 +80,27 @@ blue {
 lightblue {
     color: #9cdcfe;
 }
+
+lightlightblue {
+    color: #4fc1f1;
+}
+
 lime{
     color: #adc4a0
 }
+
 red{
     color: #e23333;
 }
+
 orange{
     color: #ce9278;
 }
+
 black{
     color: black;
 }
+
 img {
     display: block;
     margin-left: 20px;
@@ -101,6 +110,7 @@ img {
     border-radius: 20px;
     margin-top: 20px;
 }
+
 button{
     background-color: #1f1f1f;
     color: white;
@@ -112,6 +122,7 @@ button{
     width: 50px;
     height: 50px;
 }
+
 button:hover{
     background-color: white;
     color: #1f1f1f;
@@ -123,9 +134,11 @@ button:hover{
     width: 50px;
     height: 50px;
 }
+
 h2{
     margin-left: 20px;
 }
+
 loesungtext{
     display: block;
     padding: 20px;
@@ -138,10 +151,12 @@ loesungtext{
     background-color: #484848;
     margin-bottom: 20px;
 }
+
 loesungen h2{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 loesungen{
     display: block;
     padding: 20px;
@@ -154,6 +169,7 @@ loesungen{
     background-color: #484848;
     margin-bottom: 20px;
 }
+
 aufgabe {
     font-size: 20px;
     display: block;
@@ -166,12 +182,12 @@ aufgabe {
     margin-top: 20px;
     background-color: #484848;
 }
+
 h3{
     font-size: 30px;
     margin-bottom: -10px;
     margin-top: 0px;
 }
-
 
 ::-webkit-scrollbar {
     width: 0.1px;
@@ -201,6 +217,7 @@ info text{
     margin-bottom: 20px;
     color: black;
 }
+
 infoCode{
     background-color: #484848;
     padding: 5px;
