@@ -22,9 +22,6 @@ Day21 = 1;
 Day22 = 1;
 Day23 = 1;
 Day24 = 1;
-Day25 = 1;
-Day26 = 1;
-Day27 = 1;
 
 InfoDay1 = "Richtig! </br> Kara lauft 5 Felder nach vorn, also bis zum Baum. Jedes Mal, wenn Kara auf ein Feld geht, überprüft er ob auf dem Feld ein Blatt liegt, sollte dies der Fall sein, wird die variable &quot;<lightblue>Blatt_war_auf_dem_weg</lightblue>&quot; auf <blue>True</blue> (Wahr) gesetzt. Am Baum angekommen, überprüft Kara ob die Variable &quot;<lightblue>Blatt_war_auf_dem_weg</lightblue>&quot; auf <blue>True</blue> (Wahr) gesetzt ist, sollte dies der Fall sein dreht sich Kara nach Links andernfalls nach rechts.";
 InfoDay2 = "Richtig! </br> Kara lauft bis er am Baum ankommt, dabei wird jedes Mal überprüft ob auf dem Feld ein Blatt liegt, sollte dies der Fall sein, wird die Variable &quot;<lightblue>Blaetter</lightblue>&quot; um <lime>1</lime> erhöht. Am Baum angekommen, dreht sich Kara so oft um 90° nach Links wie die Variable &quot;<lightblue>Blaetter</lightblue>&quot; angibt. Da nur überprüft wird, wenn Kara nicht vor dem Baum ist, wir das Blatt vor dem Baum nicht mitgezählt.";
@@ -50,13 +47,21 @@ InfoDay21 = "1";
 InfoDay22 = "1";
 InfoDay23 = "1";
 InfoDay24 = "1";
-InfoDay25 = "1";
-InfoDay26 = "1";
-InfoDay27 = "Hallo!";
+
+Falsch1 = "<red>Leider Falsch, versuche es noch einmal!</red>";
+Falsch2 = "<red>Nicht ganz, versuche es noch einmal!</red>";
+Falsch3 = "<red>Leider Falsch, aber du Schaft das, versuche es noch mal!</red>";
+Falsch4 = "<red>Leider nicht ganz die richtige Antwort. Versuch es doch bitte noch einmal.</red>";
+Falsch5 = "<red>Leider nicht die korrekte Lösung. Möchtest du es nochmals versuchen?</red>";
+Falsch6 = "<red>Leider nicht die richtige Antwort. Versuch es erneut, diesmal klappt es bestimmt</red>";
+Falsch7 = "<red>Denkfehler passieren, verusche es nochmal!</red>";
 
 const Info = document.getElementById("Info");
 Info.style.display = "none";
-
+function _getRandomInt() {
+    let randomNumber = Math.floor(Math.random() * 7) + 1;
+    return randomNumber;
+}
 function a() {
     if (window[`Day${PageDate}`] == 1) {
         console.log(window[`InfoDay${PageDate}`]);
@@ -64,7 +69,7 @@ function a() {
         Info.style.display = "block";
     }
     else {
-        Info.innerHTML = "<red>Leider Falsch, versuche es noch einmal!</red>";
+        Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
     }
 }
@@ -75,7 +80,7 @@ function b() {
         Info.style.display = "block";
     }
     else {
-        Info.innerHTML = "<red>Leider Falsch, versuche es noch einmal!</red>";
+        Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
     }
 }
@@ -86,7 +91,7 @@ function c() {
         Info.style.display = "block";
     }
     else {
-        Info.innerHTML = "<red>Leider Falsch, versuche es noch einmal!</red>";
+        Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
     }
 }
@@ -97,7 +102,7 @@ function d() {
         Info.style.display = "block";
     }
     else {
-        Info.innerHTML = "<red>Leider Falsch, versuche es noch einmal!</red>";
+        Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
     }
 }
