@@ -54,7 +54,6 @@ header left, center, right{
 pre {
 	background-color: #1f1f1f;
 	font-family: Fixedsys, Courier, monospace;
-	padding: 0 1em;
     border-radius: 20px;
     margin: 20px 20px 0px 20px;
     overflow-y: scroll;
@@ -89,6 +88,9 @@ red{
 }
 orange{
     color: #ce9278;
+}
+black{
+    color: black;
 }
 img {
     display: block;
@@ -171,18 +173,35 @@ h3{
 }
 
 
-/* width */
 ::-webkit-scrollbar {
-    width: 1px;
+    width: 0.1px;
     clear: right;
     color: transparent;
+    border-radius: 20px;
 }
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+info text{
+    display: block;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 80px);
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: hsl(48, 100%, 50%);
+    margin-bottom: 20px;
+}
+infoCode{
+    background-color: #484848;
+    padding: 5px;
+    border-radius: 10px;
 }

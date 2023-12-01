@@ -4,7 +4,7 @@ Day3 = 3;
 Day4 = 1;
 Day5 = 3;
 Day6 = 2;
-Day7 = 1;
+Day7 = 2;
 Day8 = 1;
 Day9 = 1;
 Day10 = 1;
@@ -32,7 +32,7 @@ InfoDay3 = "Korrekt! </br> Kara legt zuerst eine Linie aus Blättern, die so lan
 InfoDay4 = "Gut gemacht! </br> Kara geht immer ein Feld nach vorne, wenn ein Mushroom (Pilz vor ihm ist oder wenn dort keiner ist, also immer. Bei jedem Schritt überprüft er ob ein Blatt unter ihm ist, wenn dies der Fall ist, nimmt er es auf. Wenn Kara auf dem Feld vor dem ersten Pilz ist, dreht er sich nach Links, wenn er auf dem Feld vor dem zweiten Pilz ist, geht sie ein Feld nach vorne uns schiebt den Pilz mit nach vorne, da Kara aber nur ein Pilz zurzeit schieben kann, kommt es beim nächsten versuch nach vorne zu gehen zu einem Error (Fehler), da Kara versucht zwei Pilze zu schieben.";
 InfoDay5 = "Richtig! </br> Kara schaut ob auf dem Feld, wo er steht, ob dort bereits ein Blatt liegt, sollte dies der Fall sein, nimmt der das Blatt auf, andernfalls legt er ein Blatt hin. Insgesamt gibt es <lime>3</lime> Zeilen wo <lime>4</lime> Blätter fehlen und <lime>2</lime> Zeilen wo <lime>5</lime> Blätter fehlen also kann man die Fehlenden Blätter sehr leicht ausrechnen: </br> </br> <lime>3</lime> x <lime>4</lime> + <lime>2</lime> x <lime>5</lime> = <lime>22</lime>";
 InfoDay6 = "Sehr gut! </br> Die Variable &quot;<lightblue>Variable</lightblue>&quot; bekommt am Beginn auf den String-Wert: &quot;<orange>&quot;Test&quot;</orange>&quot;. Bei der if/else Abfrage wird dann überprüft, ob der Wert von &quot;<lightblue>Variable</lightblue>&quot; gleich zu True (Wahr) ist, dies ist nicht der Fall, da das eine ein Boolean ist und das Ander ein String. </br> (String &#8800; Boolean)";
-InfoDay7 = "1";
+InfoDay7 = "Richtig! </br> Denn die for-Zählschlefe den Code in ihr 8-mal wiederholt, dabei hat &quot;<lightblue>i</lightblue>&quot; immer einen höheren Wert, also im ersten Durchgang ein Wert von: <lime>0</lime>, im zweiten einen Wert von: <lime>1</lime>, im dritten ein Wert von: <lime>2</lime> und immer so weiter. In der Zählschleife wird nun jedes Mal überprüft, ob der Wert an der Stelle im <lightblue>array</lightblue> den Wert <lime>1</lime>, hat. Sollte dies der Fall sein, legt Kara ein Blatt. Anschließend geht Kara immer ein Feld nach vorne.";
 InfoDay8 = "1";
 InfoDay9 = "1";
 InfoDay10 = "1";

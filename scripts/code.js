@@ -5,14 +5,12 @@ codeElement.innerText = modifiedLines.join('\n');
 
 let preContent = document.getElementById('code').innerHTML;
 let keywords = ['for', 'in', 'if', 'while', 'else'];
-let specialChars = ['(', ')'];
-let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+let specialChars = ['(', ')', '[', ']', '{', '}'];
+let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','len'];
 let operators = ['not', 'or', 'and', 'True', 'False', 'None', 'var', 'const', 'let', 'func', 'def'];
-let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable'];
+let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array'];
 let specialKeywords = ['range'];
 let strings = ['"True"'];
-
-
 
 keywords.forEach(keyword => {
     let regex = new RegExp(`\\b${keyword}\\b`, 'g');

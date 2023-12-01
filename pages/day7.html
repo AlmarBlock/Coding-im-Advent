@@ -19,18 +19,31 @@
         <right><nav><a class="menu" href="../index.html" id="NextDay">Next Day</a></nav></right>
     </header>
     <aufgabe>
-        <h3>Wie Groß soll die Grundplatte werden?</h3>
-        <br>
+        <h3>0, 1, 1, 0 , 1, 0, 1, 1</h3>
+        <br>Wie vile Blätter legt Kara hin?
         <br>
         <br>Schaue dir den Code an und versuche die Lösung zu finden.
     </aufgabe>
-    <img src="../images/days/" alt="Bild der PythonKara Welt">
+    <img src="../images/days/day7.1.png" alt="Bild der PythonKara Welt">
+        <info>
+            <text>
+                <h3>&#x26A0; Info &#x26A0;</h3>
+                <br>
+                Das <infoCode id="infoCode"><lime>len</lime><yellow>(</yellow><lightblue>array</lightblue><yellow>)</yellow></infoCode> gibt die länge des Arrays wieder also in diesem fall 8.
+            </text>
+        </info>
     <code><pre><text id="code">
+array = [0, 1, 1, 0 , 1, 0, 1, 1]
 
+for i in range(len(array)):
+    if array[i] == 1:
+        kara.putLeaf()
+    kara.move()
     </text></pre></code>
 <loesungen>
-    <h2>A) &nbsp; <button onclick="a()">A</button></h2>
-    <h2>B) &nbsp; <button onclick="b()">B</button></h2>
+    <h2>A) 3 Blätter&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) 5 Blätter&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) 8 Blätter&nbsp; <button onclick="c()">C</button></h2>
 </loesungen>
 
     <info>
