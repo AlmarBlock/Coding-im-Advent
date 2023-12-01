@@ -199,6 +199,7 @@ info text{
     margin-top: 20px;
     background-color: hsl(48, 100%, 50%);
     margin-bottom: 20px;
+    color: black;
 }
 infoCode{
     background-color: #484848;
