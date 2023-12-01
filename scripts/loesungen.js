@@ -53,7 +53,7 @@ Falsch2 = "<red>Nicht ganz, versuche es noch einmal!</red>";
 Falsch3 = "<red>Leider Falsch, aber du Schaft das, versuche es noch mal!</red>";
 Falsch4 = "<red>Leider nicht ganz die richtige Antwort. Versuch es doch bitte noch einmal.</red>";
 Falsch5 = "<red>Leider nicht die korrekte Lösung. Möchtest du es nochmals versuchen?</red>";
-Falsch6 = "<red>Leider nicht die richtige Antwort. Versuch es erneut, diesmal klappt es bestimmt</red>";
+Falsch6 = "<red>Leider nicht die richtige Antwort. Versuch es erneut, diesmal klappt es bestimmt!</red>";
 Falsch7 = "<red>Denkfehler passieren, versuche es nochmal!</red>";
 
 const Info = document.getElementById("Info");
