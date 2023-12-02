@@ -20,17 +20,42 @@
     </header>
     <aufgabe>
         <h3>Wie Groß soll die Grundplatte werden?</h3>
-        <br>
+        <br>Weleche Form legt Kara auf die Fläche?
         <br>
         <br>Schaue dir den Code an und versuche die Lösung zu finden.
     </aufgabe>
-    <img src="../images/days/" alt="Bild der PythonKara Welt">
+    <img src="../images/days/day16.1.png" alt="Bild der PythonKara Welt">
+        <info>
+            <text>
+                <h3>&#x26A0; Info &#x26A0;</h3>
+                <br>
+                Das <infoCode><lightblue>array</lightblue><white>.</white><lightyellow>append</lightyellow><yellow>(</yellow><lightblue>i</lightblue><yellow>)</yellow></infoCode> sorgt dafür das der Wert von <infoCode><lightblue>i</lightblue></infoCode> an das Ende vom <infoCode><lightblue>array</lightblue></infoCode> angehängt wird. <br> <br> <infoCode><lightblue>i</lightblue></infoCode> Startet mit dem Wert 0, also sieht das <infoCode><lightblue>array</lightblue></infoCode> wie folgt aus: <infoCode><yellow>[</yellow><lime>0</lime><white>, </white><lime>1</lime><white>, </white><lime>2</lime><white>, </white><lime>...</lime><yellow>]</yellow></infoCode>
+            </text>
+        </info>
     <code><pre><text id="code">
+array = []
 
+for i in range(7):
+    array.append(i)
+
+for i in range(7):
+    kara.turnLeft()
+    kara.putLeaf()
+    for j in range(array[i]):
+        kara.move()
+        kara.putLeaf()
+    kara.turnLeft()
+    kara.turnLeft()
+    for j in range(array[i]):
+        kara.move()
+    kara.turnLeft()
+    kara.move()
     </text></pre></code>
 <loesungen>
-    <h2>A) &nbsp; <button onclick="a()">A</button></h2>
-    <h2>B) &nbsp; <button onclick="b()">B</button></h2>
+    <h2>A) Ein Kreis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) Ein Viereck&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) Ein Sechseck <button onclick="c()">C</button></h2>
+    <h2>D) Ein Dreieck&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="d()">D</button></h2>
 </loesungen>
 
     <info>
