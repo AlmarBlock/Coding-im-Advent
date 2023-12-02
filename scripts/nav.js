@@ -15,7 +15,7 @@ else {
 }
 
 if (PageDate < today) {
-    if (PageDate == 27) {
+    if (PageDate == 24) {
         NextDay.style.display = "none";
     }
     NextDay.innerHTML = "Zum nächsten Tag";
