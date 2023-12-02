@@ -12,6 +12,7 @@ let specialOperators = ['True', 'False', 'None'];
 let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array'];
 let specialKeywords = ['range'];
 let strings = ['"True"'];
+let functs = ['append', 'print'];
 
 keywords.forEach(keyword => {
     let regex = new RegExp(`\\b${keyword}\\b`, 'g');
@@ -51,6 +52,11 @@ specialKeywords.forEach(specialKeyword => {
 strings.forEach(t => {
     let regex = new RegExp(/"([^"]*)"/g);
     preContent = preContent.replace(regex, `<orange>${strings}</orange>`);
+});
+
+functs.forEach(funct  => {
+    let regex = new RegExp(`\\b${funct}\\b`, 'g');
+    preContent = preContent.replace(regex, `<lightyellow>${funct}</lightyellow>`);
 });
 
 document.getElementById('code').innerHTML = preContent;

@@ -69,6 +69,10 @@ yellow {
     color: #ffd702;
 }
 
+lightyellow{
+    color: #dcdcaa;
+}
+
 green {
     color: #4ec9b0;
 }
@@ -99,6 +103,10 @@ orange{
 
 black{
     color: black;
+}
+
+white{
+    color: white;
 }
 
 img {
