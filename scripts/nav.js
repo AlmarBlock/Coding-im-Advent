@@ -21,6 +21,5 @@ if (PageDate < today) {
     NextDay.href = `./day${PageDate+1}.html`;
 }
 else {
-    NextDay.innerHTML = "Zum nächsten Tag";
-    NextDay.href = `../dayisnotexisting.html`;
+    NextDay.style.display = "none";
 }
