@@ -6,8 +6,7 @@ const LastDay = document.getElementById("LastDay");
 const NextDay = document.getElementById("NextDay");
 
 if (PageDate == 1) {
-    LastDay.innerHTML = "Zum vorherigen Tag";
-    LastDay.href = "../index.html";
+    LastDay.style.display = "none";
 }
 else {
     LastDay.innerHTML = "Zum vorherigen Tag";
