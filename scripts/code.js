@@ -9,8 +9,8 @@ let specialChars = ['(', ')', '[', ']', '{', '}'];
 let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','len'];
 let operators = ['not', 'or', 'and', 'var', 'const', 'let', 'func', 'def'];
 let specialOperators = ['True', 'False', 'None'];
-let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array'];
-let specialKeywords = ['range'];
+let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array', 'Variable1', 'Variable2'];
+let specialKeywords = ['range', 'str'];
 let strings = ['"True"', '"1"'];
 let functs = ['append', 'print'];
 
