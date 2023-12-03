@@ -4,12 +4,12 @@ let modifiedLines = lines.map(line => ' ' + line);
 codeElement.innerText = modifiedLines.join('\n');
 
 let preContent = document.getElementById('code').innerHTML;
-let keywords = ['for', 'in', 'if', 'while', 'else'];
+let keywords = ['for', 'in', 'if', 'while', 'else', 'elif'];
 let specialChars = ['(', ')', '[', ']', '{', '}'];
 let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','len'];
 let operators = ['not', 'or', 'and', 'var', 'const', 'let', 'func', 'def'];
 let specialOperators = ['True', 'False', 'None'];
-let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array', 'Variable1', 'Variable2'];
+let varibles = ['i', 'j', 'Blaetter', 'Blat_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array', 'Variable1', 'Variable2', 'mushrooms', 'trees'];
 let specialKeywords = ['range', 'str'];
 let strings = ['"True"', '"1"'];
 let functs = ['append', 'print'];
