@@ -12,7 +12,6 @@ CHANGE_HERE{
     }
 }
 */
-
 body{
     background: rgb(122, 122, 122);
     color: rgb(255, 255, 255);
@@ -83,6 +82,7 @@ infos text h3{
 infos text a{
     color: #ff9a9a;
     text-decoration: none;
+    transition: 200ms;
 }
 
 infos text a:hover{
@@ -161,6 +161,8 @@ button{
     margin: 20px;
     width: 50px;
     height: 50px;
+    cursor: pointer;
+    transition: 200ms;
 }
 
 button:hover{
