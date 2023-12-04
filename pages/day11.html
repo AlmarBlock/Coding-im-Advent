@@ -19,18 +19,33 @@
         <right><nav><a class="menu" href="../index.html" id="NextDay">Next Day</a></nav></right>
     </header>
     <aufgabe>
-        <h3>Wie Groß soll die Grundplatte werden?</h3>
-        <br>
+        <h3>1, 2, 3 oder doch lieber 4?</h3>
+        <br>Weleches Array brauch Kara um ein Blatt vor den Baum zu legen, ohne ein Pilz zu verschieben?
         <br>
         <br>Schaue dir den Code an und versuche die Lösung zu finden.
     </aufgabe>
-    <img src="../images/days/" alt="Bild der PythonKara Welt">
+    <img src="../images/days/day11.1.png" alt="Bild der PythonKara Welt">
     <code><pre><text id="code">
+anweisungen = []
 
+for i in range(len(anweisungen)):
+    if anweisungen[i] == 1:
+        kara.turnLeft()
+
+    if anweisungen[i] == 2:
+        kara.turnRight()
+
+    if anweisungen[i] == 3:
+        kara.move()
+
+    if anweisungen[i] == 4:
+        kara.putLeaf()
     </text></pre></code>
 <loesungen>
-    <h2>A) &nbsp; <button onclick="a()">A</button></h2>
-    <h2>B) &nbsp; <button onclick="b()">B</button></h2>
+    <h2>A) [3, 2, 3, 1, 3, 1, 3, 4]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) [3, 2, 3, 1, 3, 1, 3, 2]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) [3, 2, 3, 5, 1, 3, 1, 3, 2]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="c()">C</button></h2>
+    <h2>D) [3, 3, 2, 3, 1, 3, 3, 1, 3, 4]&nbsp; <button onclick="d()">D</button></h2>
 </loesungen>
 
     <info>
