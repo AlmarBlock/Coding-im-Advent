@@ -1,5 +1,5 @@
 if (month !== 12 || PageDate > today) {
-    window.location = "../toearly.html";
+    window.location = "../dayisnotexisting.html";
 }
 
 const LastDay = document.getElementById("LastDay");
