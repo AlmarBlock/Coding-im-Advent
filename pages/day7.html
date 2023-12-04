@@ -30,6 +30,9 @@
                 <h3>&#x26A0; Info &#x26A0;</h3>
                 <br>
                 Das <infoCode><lime>len</lime><yellow>(</yellow><lightblue>array</lightblue><yellow>)</yellow></infoCode> gibt die länge des Arrays wieder also in diesem fall 8.
+                <br>
+                <br>
+                <infoCode><lightblue>array</lightblue><yellow>[</yellow><lightblue>i</lightblue><yellow>]</yellow></infoCode> Steht für den Wert des array an der Stelle <infoCode><lightblue>i</lightblue></infoCode>. Die erste Stelle des Arrays hat den Index 0. Und <infoCode><lightblue>i</lightblue></infoCode> starten bei 0 zu Zählen.
             </text>
         </info>
     <code><pre><text id="code">
@@ -38,6 +41,7 @@ array = [0, 1, 1, 0 , 1, 0, 1, 1]
 for i in range(len(array)):
     if array[i] == 1:
         kara.putLeaf()
+        
     kara.move()
     </text></pre></code>
 <loesungen>
