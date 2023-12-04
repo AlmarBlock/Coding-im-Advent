@@ -67,10 +67,12 @@ function a() {
         console.log(window[`InfoDay${PageDate}`]);
         Info.innerHTML = window[`InfoDay${PageDate}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
     else {
         Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
 }
 function b() {
@@ -78,10 +80,12 @@ function b() {
         console.log(window[`InfoDay${PageDate}`]);
         Info.innerHTML = window[`InfoDay${PageDate}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
     else {
         Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
 }
 function c() {
@@ -89,10 +93,12 @@ function c() {
         console.log(window[`InfoDay${PageDate}`]);
         Info.innerHTML = window[`InfoDay${PageDate}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
     else {
         Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
 }
 function d() {
@@ -100,9 +106,11 @@ function d() {
         console.log(window[`InfoDay${PageDate}`]);
         Info.innerHTML = window[`InfoDay${PageDate}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
     else {
         Info.innerHTML = window[`Falsch${_getRandomInt()}`];
         Info.style.display = "block";
+        window.scrollBy(0, 1000000);
     }
 }
