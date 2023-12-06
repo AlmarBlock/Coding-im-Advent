@@ -19,18 +19,49 @@
         <right><nav><a class="menu" href="../index.html" id="NextDay">Next Day</a></nav></right>
     </header>
     <aufgabe>
-        <h3>Wie Groß soll die Grundplatte werden?</h3>
-        <br>
+        <h3>X + Y + Z = ? 2</h3>
+        <br>Wie viele Pilze und Bäume hat Kara gezählt, wenn er auf dem Blatt steht?
         <br>
         <br>Schaue dir den Code an und versuche die Lösung zu finden.
     </aufgabe>
-    <img src="../images/days/" alt="Bild der PythonKara Welt">
+    <img src="../images/days/day12.1.png" alt="Bild der PythonKara Welt">
     <code><pre><text id="code">
+mushrooms = 0
+trees = 0
 
+def _mushroomLeft():
+    kara.turnLeft()
+
+    if kara.mushroomFront():
+        kara.turnRight()
+        return True
+    else:
+        kara.turnRight()
+        return False
+
+def _TreeLeft():
+    kara.turnLeft()
+
+    if kara.treeFront():
+        kara.turnRight()
+        return True
+    else:
+        kara.turnRight()
+        return False
+    
+while not kara.onLeaf():
+    if _mushroomLeft():
+        mushrooms = mushrooms + 1
+        
+    if _TreeLeft():
+        trees = trees + 1
+    kara.move()
     </text></pre></code>
 <loesungen>
-    <h2>A) &nbsp; <button onclick="a()">A</button></h2>
-    <h2>B) &nbsp; <button onclick="b()">B</button></h2>
+    <h2>A) 0 Pilze | 4 Bäume&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) 3 Pilze | 1 Bäume&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) 1 Pilze | 3 Bäume&nbsp; <button onclick="c()">C</button></h2>
+    <h2>D) 0 Pilze | 0 Bäume&nbsp; <button onclick="d()">D</button></h2>
 </loesungen>
 
     <info>
