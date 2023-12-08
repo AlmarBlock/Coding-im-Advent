@@ -4,7 +4,7 @@ let modifiedLines = lines.map(line => ' ' + line);
 codeElement.innerText = modifiedLines.join('\n');
 
 let preContent = document.getElementById('code').innerHTML;
-let keywords = ['for', 'in', 'if', 'while', 'else', 'elif'];
+let keywords = ['for', 'in', 'if', 'while', 'else', 'elif', 'return', 'break', 'continue', 'pass', 'import', 'from', 'as', 'try', 'except', 'finally', 'raise', 'assert', 'del', 'global', 'nonlocal', 'lambda', 'yield', 'with', 'is', 'not', 'or', 'and', 'var', 'const', 'let', 'func', 'def', 'True', 'False', 'None', 'range', 'str', 'append', 'print'];
 let specialChars = ['(', ')', '[', ']', '{', '}'];
 let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','len'];
 let operators = ['not', 'or', 'and', 'var', 'const', 'let', 'func', 'def'];
