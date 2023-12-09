@@ -28,10 +28,10 @@ header{
     padding: 20px;
 }
 .menu{
-    padding: 10px;
+    padding: 9px;
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 23px;
     background-color: #1f1f1f;
     border-radius: 3px;
 }
@@ -39,7 +39,6 @@ header{
     background-color: white;
     color: #1f1f1f;
     border-radius: 3px;
-    padding: 10px;
 }
 header{
     display: flex;
