@@ -24,13 +24,26 @@
         <br>
         <br>Schaue dir den Code an und versuche die Lösung zu finden.
     </aufgabe>
-    <img src="../images/days/" alt="Bild der PythonKara Welt">
+    <img src="../images/days/day15.1.png" alt="Bild der PythonKara Welt">
     <code><pre><text id="code">
+zahl = 6
+turn = 0
 
+for i in range(zahl):
+    if i == zahl:
+        turn = 1
+    else:
+        turn = 2
+
+if turn == 1:
+    kara.turnLeft()
+else:
+    kara.turnRight()
     </text></pre></code>
 <loesungen>
-    <h2>A) &nbsp; <button onclick="a()">A</button></h2>
-    <h2>B) &nbsp; <button onclick="b()">B</button></h2>
+    <h2>A) Richtung der Blätter&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) Richtung der Pilze&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) Nach oben (Fehler)&nbsp;&nbsp;&nbsp; <button onclick="c()">C</button></h2>
 </loesungen>
 
     <info>
