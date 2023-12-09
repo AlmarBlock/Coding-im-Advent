@@ -1,0 +1,87 @@
+body{
+    width: 100vw !important;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table {
+    border-collapse: collapse;
+    width: 1000000px;
+    margin: 20px;
+}
+.list span{
+    margin: 0px;
+    padding: 6px;
+}
+.list_header {
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+}
+
+.list_header .list{
+    width: 50%;
+}
+
+.odd{
+    background-color: rgb(212, 173, 99);
+}
+
+.even{
+    background-color: rgb(165, 57, 57);
+}
+
+tabellen_nav{
+    display: flex;
+    justify-content: center;
+}
+
+tabellen_nav button{
+    margin: 20px 0px 10px 0px;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+    font-style: bold;
+    transition: 200ms;
+}
+
+tabellen_nav button:hover{
+    margin: 20px 0px 10px 0px;
+    padding: 10px;
+    background-color: white;
+    color: #1f1f1f;
+    text-decoration: none;
+    font-style: bold;
+    width: 150px;
+    height: 70px;
+}
+
+.kara-nav{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.world-nav{
+    border-radius: 0px;
+}
+
+.tools-nav{
+    border-radius: 0px 20px 20px 0px;
+}
+
+.kara-nav:hover{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.world-nav:hover{
+    border-radius: 0px;
+}
+
+.tools-nav:hover{
+    border-radius: 0px 20px 20px 0px;
+}

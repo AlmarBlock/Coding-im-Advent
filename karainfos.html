@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Coding im Advent</title>
+    <link rel="icon" type="image/png" href="./images/icons/home.png">
+    <link rel="manifest" href="./msc/site.webmanifest">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/tables.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon/apple-touch-icon.png">
+    <style>
+      header{
+      padding: 20px;
+      display: block;
+      } 
+      </style>
+</head>
+<body>
+    <header>
+      <center>
+        <h1 style="margin-bottom: 0px;">Coding im Advent</h1>
+      </center>
+      <center>
+        <h5 style="margin-bottom: 15px; margin-top: 15px;">Python Kara Befehl Set:</h5>
+      </center>
+    </header>
+    <center><a class="menu" href="./index.html" style="margin-top: 20px;">Zuruck zum Start</a></center>
+    <tabellen_nav>
+      <button class="kara-nav" id="button_kara" onclick="_kara()">kara</button>
+      <button class="world-nav" id="button_world" onclick="_world()">world</button>
+      <button class="tools-nav" id="button_tools" onclick="_tools()">tools</button>
+    </tabellen_nav>
+  <table id="kara" style="width: calc(100% - 40px);">
+  <tr class="list_header">
+    <th class="list">Benutzung</th>
+    <th class="list">Nutzen</th>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>move()</span></td>
+    <td class="list"><span>Schritt vorwärts</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>turnLeft()</span></td>
+    <td class="list"><span>90°-Linksdrehung</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>turnRight()</span></td>
+    <td class="list"><span>90°-Rechtsdrehung</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>putLeaf()</span></td>
+    <td class="list"><span>Kleeblatt hinlegen</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>removeLeaf()</span></td>
+    <td class="list"><span>Kleeblatt aufnehmen</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>treeFront()</span></td>
+    <td class="list"><span>Kara vor Baum?</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>treeLeft()</span></td>
+    <td class="list"><span>Baum links von Kara?</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>treeRight()</span></td>
+    <td class="list"><span>Baum rechts von Kara?</span></td>
+  </tr>
+  
+  <tr class="list odd">
+    <td class="list"><span>onLeaf()</span></td>
+    <td class="list"><span>Kara auf Kleeblatt?</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>mushroomFront()</span></td>
+    <td class="list"><span>Kara vor Pilz?</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>setPosition (int x, int y)</span></td>
+    <td class="list"><span>Kara von Position (x,y)</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>getPosition()</span></td>
+    <td class="list"><span>Koordinaten der aktuellen Position</span></td>
+  </tr>
+  </table>
+  <table id="world" style="width: calc(100% - 40px);">
+  <tr class="list_header">
+    <th class="list">Benutzung</th>
+    <th class="list">Nutzen</th>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>clearAll()</span></td>
+    <td class="list"><span>Alle Elemente entfernen</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>setLeaf (int x, int y, boolean putLeaf)</span></td>
+    <td class="list"><span>Blatt legen oder entfernen</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>setTree (int x, int y, boolean putTree)</span></td>
+    <td class="list"><span>Baum setzen oder entfernen</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>setMushroom (int x, int y, boolean putMushroom)</span></td>
+    <td class="list"><span>Pilz setzen oder entfernen</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>setSize (int newSizeX, int newSizeY)</span></td>
+    <td class="list"><span>Grösse der Welt ändern</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>isEmpty (int x, int y)</span></td>
+    <td class="list"><span>Ist das Feld leer?</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>isTree (int x, int y)</span></td>
+    <td class="list"><span>Ist ein Baum auf dem Feld?</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>isMushroom (int x, int y)</span></td>
+    <td class="list"><span>Ist ein Pilz auf dem Feld?</span></td>
+  </tr>
+  
+  <tr class="list odd">
+    <td class="list"><span>isLeaf (int x, int y)</span></td>
+    <td class="list"><span>Ist ein Blatt auf dem Feld?</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>getSizeX()</span></td>
+    <td class="list"><span>Horizontale Grösse der Welt</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>getSizeY()</span></td>
+    <td class="list"><span>Vertikale Grösse der Welt</span></td>
+  </tr>
+  </table>
+  <table id="tools" style="width: calc(100% - 40px);">
+  <tr class="list_header">
+    <th class="list">Benutzung</th>
+    <th class="list">Nutzen</th>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>println (String string)</span></td>
+    <td class="list"><span>String auf Standard-Ausgabe schreiben</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>showMessage (String message)</span></td>
+    <td class="list"><span>String in Dialogfenster ausgeben</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>random (int bound)</span></td>
+    <td class="list"><span>Liefert Zufallszahl aus Bereich [0..bound]</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>checkState()</span></td>
+    <td class="list"><span>Schaut auf den Geschwindigkeitsregler</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>sleep (int ms)</span></td>
+    <td class="list"><span>Schläft ms Millisekunden</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>stringInput (String title)</span></td>
+    <td class="list"><span>String in einem Dialogfenster mit Titel title eingeben; gibt null zurück, wenn der Dialog mit Cancel abgebrochen wurde</span></td>
+  </tr>
+
+  <tr class="list odd">
+    <td class="list"><span>intInput (String title)</span></td>
+    <td class="list"><span>Ganzzahl in einem Dialogfenster mit Titel title eingeben; gibt Integer.MIN_VALUE zurück, wenn der Dialog mit Cancel abgebrochen wurde oder nicht eine Ganzzahl eingegeben wurde</span></td>
+  </tr>
+
+  <tr class="list even">
+    <td class="list"><span>doubleInput (String title)</span></td>
+    <td class="list"><span>Fliesskommazahl in einem Dialogfenster mit Titel title eingeben; gibt Double.MIN_VALUE zurück, wenn der Dialog mit Cancel abgebrochen wurde oder nicht eine Fliesskommazahl eingegeben wurde</span></td>
+  </tr>
+  </table>
+</body>
+<script src="./scripts/infotabellen.js"></script>
+</html>
