@@ -277,9 +277,11 @@ direktjump input{
     align-items: center;
     background-color: #1f1f1f;
     font-size: 20px;
-    border-radius: 2px;
+    border-radius: 6px;
     color: white;
     width: 30px;
+    border: none;
+    padding: 8px;
 }
 
 direktjump button{
