@@ -8,16 +8,18 @@ tbody {
 }
 table {
     border-collapse: collapse;
-    width: 1000000px;
     margin: 20px;
 }
-.list span{
-    margin: 0px;
-    padding: 6px;
+tr td span{
+    width: 100%;
+    margin: 6px;
+    padding: 0px;
+    font-size: 24px;
+    white-space: white-space;
 }
 .list_header {
     text-align: center;
-    background-color: blue;
+    background-color: #1f1f1f;
     padding: 10px;
 }
 
@@ -26,11 +28,11 @@ table {
 }
 
 .odd{
-    background-color: rgb(212, 173, 99);
+    background-color: #2e2e2e;
 }
 
 .even{
-    background-color: rgb(165, 57, 57);
+    background-color: #3f3f3f;
 }
 
 tabellen_nav{
@@ -54,8 +56,8 @@ tabellen_nav button{
 tabellen_nav button:hover{
     margin: 20px 0px 10px 0px;
     padding: 10px;
-    background-color: white;
-    color: #1f1f1f;
+    color: white;
+    background-color: #1f1f1f;
     text-decoration: none;
     font-style: bold;
     width: 150px;
