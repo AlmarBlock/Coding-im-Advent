@@ -20,17 +20,43 @@
     </header>
     <aufgabe>
         <h3>Wie Groß soll die Grundplatte werden?</h3>
-        <br>
+        <br>Was kann man anstelle des "?" bei "<lightblue>input</lightblue>" eingeben, damit Kara zum Pilz geht? 
         <br>
         <br>Schaue dir den Code an und versuche die Lösung zu finden.
     </aufgabe>
-    <img src="../images/days/" alt="Bild der PythonKara Welt">
+    <img src="../images/days/day17.1.png" alt="Bild der PythonKara Welt">
     <code><pre><text id="code">
+input = ?
+grade = False
 
+def _goToPilz():
+    kara.turnLeft()
+
+    for i in range(3):
+        kara.move()
+
+    kara.turnLeft()
+
+def _goToMushroom():
+    kara.turnRight()
+    
+    for i in range(3):
+        kara.move()
+
+    kara.turnRight()
+
+if input*2 % 2 == 0:
+    grade = True
+
+if grade:
+    _goToPilz()
+else:
+    _goToMushroom()
     </text></pre></code>
 <loesungen>
-    <h2>A) &nbsp; <button onclick="a()">A</button></h2>
-    <h2>B) &nbsp; <button onclick="b()">B</button></h2>
+    <h2>A) Nur Grade Zahlen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) Nur Ungerade Zahlen&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) Alle Zahlen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="c()">C</button></h2>
 </loesungen>
 
     <info>

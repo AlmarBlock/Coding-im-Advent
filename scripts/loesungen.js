@@ -14,7 +14,7 @@ Day13 = 4;
 Day14 = 4;
 Day15 = 2;
 Day16 = 4;
-Day17 = 0;//
+Day17 = 3;
 Day18 = 0;//
 Day19 = 0;//
 Day20 = 0;//
@@ -39,7 +39,7 @@ InfoDay13 = "Sehr gut! <br> Denn in der ersten Zeile wird eine Variable mit dem 
 InfoDay14 = "Richtig! <br> Im Code wird in jedem Durchgang der for-Schleife 1 zu der Variable &quot;<lightblue>number</lightblue>&quot; hinzugefügt. Wenn &quot;<lightblue>number</lightblue>&quot; dann ohne Rest durch <lime>2</lime> teilbar ist, werden zusätzlich zwei weitere dazu addiert. Am Ende legt Kara so viele Blätter ab, wie die Variable &quot;<lightblue>number</lightblue>&quot; durch <lime>2</lime> angibt. <br><br>Durchgang 1: <lightblue>number</lightblue> = <lime>1</lime><br>Durchgang 2: <lightblue>number</lightblue> = <lime>4</lime><br>Durchgang 3: <lightblue>number</lightblue> = <lime>5</lime><br>Durchgang 4: <lightblue>number</lightblue> = <lime>8</lime><br>Durchgang 5: <lightblue>number</lightblue> = <lime>9</lime><br>Durchgang 6: <lightblue>number</lightblue> = <lime>12</lime><br>Durchgang 7: <lightblue>number</lightblue> = <lime>13</lime>";
 InfoDay15 = "Korrekt! <br> Denn in dem <purple>for</purple>-Loop wird überprüft, ob <lightblue>i</lightblue> den gleichen Wert wie <lightbluezahl>i</lightblue> hat. Allerdings hat <lightblue>i</lightblue> maximal den Wert <lime>5</lime>, da der <purple>for</purple>-Loop bei <lime>0</lime> beginnt und <lime>6</lime> Wiederholungen durchführen soll, also von <lime>0</lime> bis <lime>5</lime>. Dadurch ist <lightblue>i</lightblue> nie gleich <lime>6</lime>, und Kara dreht sich nach rechts.";
 InfoDay16 = "Gut gemacht! <br> Das <lightblue>array</lightblue> hat nach der ersten for-Zählschläfe den Wert: <yellow>[</yellow><lime>0</lime><white>, </white><lime>1</lime><white>, </white><lime>2</lime><white>, </white><lime>3</lime><white>, </white><lime>4</lime><white>, </white><lime>5</lime><white>, </white><lime>6</lime><yellow>]</yellow>. In der zweiten Schleife geht Kara von links nach rechts jede Spalte durch und legt, wenn es das <lightblue>array</lightblue> angibt Blätter, wenn er alle Blätter abgelegt hat, dreht er um und geht wieder zurück zum unteren Ende, dort angekommen, geht er zur Nächten Spalte und wiederholt dasselbe. Da das <lightblue>array</lightblue> immer aufsteigende Werte hat, steigt auch die Anzahl der Blätter, die Kara legt, und so entsteht eine Rampe, von unten links nach oben rechts.";
-InfoDay17 = "1";
+InfoDay17 = "Korrekt! <br> Denn es wird überprüft, ob die ausgewählte Zahl mal zwei gerechnet, durch <lime>2</lime> ohne Rest teilbar ist. Dies ist immer der Fall, denn egal, ob man eine gerade oder ungerade Zahl einfügt, sobald man sie mit <lime>2</lime> multipliziert, ist sie immer gerade. Daher hat sie nach der Division durch <lime>2</lime> immer einen Rest von <lime>0</lime>. Die beiden Funktionen dienen lediglich dazu, dass Kara zum Pilz/Blatt geht.";
 InfoDay18 = "1";
 InfoDay19 = "1";
 InfoDay20 = "1";
