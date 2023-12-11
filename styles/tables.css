@@ -10,10 +10,14 @@ table {
     border-collapse: collapse;
     margin: 20px;
 }
-tr td span{
+tr td div span{
     width: 100%;
+    font-size: 24px;
+    white-space: white-space;
+}
+tr td div{
+    width: 98%;
     margin: 6px;
-    padding: 0px;
     font-size: 24px;
     white-space: white-space;
 }

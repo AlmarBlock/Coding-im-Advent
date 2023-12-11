@@ -6,6 +6,8 @@ const button_kara = document.getElementById("button_kara");
 const button_world = document.getElementById("button_world");
 const button_tools = document.getElementById("button_tools");
 
+button_kara.style.backgroundColor = "#f5f5f5";
+button_kara.style.color = "black";
 world.style.display = "none";
 tools.style.display = "none";
 
