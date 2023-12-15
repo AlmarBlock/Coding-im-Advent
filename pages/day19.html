@@ -24,9 +24,25 @@
         <br>
         <br>Schaue dir den Code an und versuche die Lösung zu finden.
     </aufgabe>
-    <img src="../images/days/" alt="Bild der PythonKara Welt">
+    <img src="../images/days/day19.1.png" alt="Bild der PythonKara Welt">
     <code><pre><text id="code">
+def _Leaf_Hinten():
+    kara.turnLeft()
+    kara.turnLeft()
+    kara.move()
 
+    if kara.onLeaf():
+        return True
+    else:
+        return False
+
+    kara.turnLeft()
+    kara.turnLeft()
+    kara.move()
+
+if _Leaf_Hinten():
+    for i in range(3):
+        kara.move()
     </text></pre></code>
 <loesungen>
     <h2>A) &nbsp; <button onclick="a()">A</button></h2>

@@ -10,9 +10,9 @@ let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9','len'];
 let operators = ['not', 'or', 'and', 'var', 'const', 'let', 'func', 'def'];
 let specialOperators = ['True', 'False', 'None'];
 let varibles = ['i', 'j', 'Blaetter', 'Blatt_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array', 'Variable1', 'Variable2', 'mushrooms', 'trees', 'anweisungen', 'number', 'zahl', 'turn', 'input', 'grade'];
-let specialKeywords = ['range', 'str', 'int'];
+let specialKeywords = ['range', 'str'];
 let strings = ['"True"', '"1"'];
-let functs = ['append', 'print', '_goToMushroom', '_goToPilz', '_mushroomLeft', '_TreeLeft'];
+let functs = ['append', 'print', '_goToMushroom', '_goToPilz', '_mushroomLeft', '_TreeLeft', '_Leaf_Hinten'];
 
 
 keywords.forEach(keyword => {
