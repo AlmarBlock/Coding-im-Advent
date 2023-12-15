@@ -17,7 +17,7 @@ Day16 = 4;
 Day17 = 3;
 Day18 = 2;
 Day19 = 1;
-Day20 = 0;//
+Day20 = 3;
 Day21 = 0;//
 Day22 = 0;//
 Day23 = 0;//
@@ -42,7 +42,7 @@ InfoDay16 = "Gut gemacht! <br> Das <lightblue>array</lightblue> hat nach der ers
 InfoDay17 = "Korrekt! <br> Denn es wird überprüft, ob die ausgewählte Zahl mal zwei gerechnet, durch <lime>2</lime> ohne Rest teilbar ist. Dies ist immer der Fall, denn egal, ob man eine gerade oder ungerade Zahl einfügt, sobald man sie mit <lime>2</lime> multipliziert, ist sie immer gerade. Daher hat sie nach der Division durch <lime>2</lime> immer einen Rest von <lime>0</lime>. Die beiden Funktionen dienen lediglich dazu, dass Kara zum Pilz/Blatt geht.";
 InfoDay18 = "Sehr gut! <br> Denn bei jedem Durchlauf des <purple>for</purple>-Loops wird die Zweierpotenz des Wertes <lightblue>i</lightblue> genommen und zur <lightblue>zahl</lightblue> dazu addiert. <br><br>0&#178; = 0 <br>1&#178; = 1<br>2&#178; = 4<br><br>insgesamt <lime>5</lime>";
 InfoDay19 = "Richtig! <br> Denn in der Funktion wird überprüft, ob hinter Kara ein Blatt liegt. Dafür dreht sich Kara um 180° und geht ein Feld nach vorne. Wenn Kara nun auf einem Feld steht, gibt die Funktion den Wert <blue>True</blue> zurück, andernfalls den Wert <blue>False</blue>. Dannach soll sich Kara dreht und ein Feld nach vorne gehen dies geschied allerdings erst, nachdem der Wert zurückgegeben wurde. Dadurch dreht sich Kara nie zurück und geht nur <lime>3</lime> Felder nach vorne. Da die Welt dafür nicht ausreicht, geht Kara auf der gegenüberliegenden Seite weiter, wodurch er auf der rechten Seite des Baumes endet.";
-InfoDay20 = "1";
+InfoDay20 = "Richtig! <br> Denn solange Kara nicht vor einem Baum steht, überprüft er, ob ein Baum hinter ihm steht. Dafür dreht er sich um 180° und schaut, ob ein Baum vor ihm steht. Danach dreht er sich wieder zurück. Wenn nun ein Baum hinter ihm ist, geht er ein Feld nach vorne. Da nur auf dem ersten Feld ein Baum hinter ihm ist, geht er nur dann ein Feld nach vorne, danach bleibt er stehen.";
 InfoDay21 = "1";
 InfoDay22 = "1";
 InfoDay23 = "1";

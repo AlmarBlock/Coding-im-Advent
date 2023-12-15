@@ -1,16 +1,14 @@
-def _Leaf_Hinten():
+def _baum_hinten():
     kara.turnLeft()
     kara.turnLeft()
-    kara.move()
-    if kara.onLeaf():
-        return True
+    if kara.treeFront():
+        baum_hinten = True
     else:
-        return False
+        baum_hinten = False
     kara.turnLeft()
     kara.turnLeft()
-    kara.move()
+    return baum_hinten
 
-
-if _Leaf_Hinten():
-    for i in range(3):
+while not kara.treeFront():
+    if _baum_hinten():
         kara.move()

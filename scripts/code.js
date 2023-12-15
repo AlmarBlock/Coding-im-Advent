@@ -9,10 +9,10 @@ let specialChars = ['(', ')', '[', ']', '{', '}'];
 let numbers = ['len', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'];
 let operators = ['not', 'or', 'and', 'var', 'const', 'let', 'func', 'def'];
 let specialOperators = ['True', 'False', 'None'];
-let varibles = ['i', 'j', 'Blaetter', 'Blatt_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array', 'Variable1', 'Variable2', 'mushrooms', 'trees', 'anweisungen', 'number', 'zahl', 'turn', 'input', 'grade', 'bild', 'n'];
+let varibles = ['i', 'j', 'Blaetter', 'Blatt_war_auf_dem_weg', 'hoehe', 'breite', 'Variable', 'array', 'Variable1', 'Variable2', 'mushrooms', 'trees', 'anweisungen', 'number', 'zahl', 'turn', 'input', 'grade', 'bild', 'n', 'baum_hinten'];
 let specialKeywords = ['range', 'str'];
 let strings = ['"True"', '"1"'];
-let functs = ['append', 'print', '_goToMushroom', '_goToPilz', '_mushroomLeft', '_TreeLeft', '_Leaf_Hinten'];
+let functs = ['append', 'print', '_goToMushroom', '_goToPilz', '_mushroomLeft', '_TreeLeft', '_Leaf_Hinten', '_baum_hinten'];
 
 
 keywords.forEach(keyword => {
