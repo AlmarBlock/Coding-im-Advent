@@ -16,7 +16,7 @@ Day15 = 2;
 Day16 = 4;
 Day17 = 3;
 Day18 = 2;
-Day19 = 0;//
+Day19 = 1;//
 Day20 = 0;//
 Day21 = 0;//
 Day22 = 0;//
@@ -41,7 +41,7 @@ InfoDay15 = "Korrekt! <br> Denn in dem <purple>for</purple>-Loop wird überprüf
 InfoDay16 = "Gut gemacht! <br> Das <lightblue>array</lightblue> hat nach der ersten for-Zählschläfe den Wert: <yellow>[</yellow><lime>0</lime><white>, </white><lime>1</lime><white>, </white><lime>2</lime><white>, </white><lime>3</lime><white>, </white><lime>4</lime><white>, </white><lime>5</lime><white>, </white><lime>6</lime><yellow>]</yellow>. In der zweiten Schleife geht Kara von links nach rechts jede Spalte durch und legt, wenn es das <lightblue>array</lightblue> angibt Blätter, wenn er alle Blätter abgelegt hat, dreht er um und geht wieder zurück zum unteren Ende, dort angekommen, geht er zur Nächten Spalte und wiederholt dasselbe. Da das <lightblue>array</lightblue> immer aufsteigende Werte hat, steigt auch die Anzahl der Blätter, die Kara legt, und so entsteht eine Rampe, von unten links nach oben rechts.";
 InfoDay17 = "Korrekt! <br> Denn es wird überprüft, ob die ausgewählte Zahl mal zwei gerechnet, durch <lime>2</lime> ohne Rest teilbar ist. Dies ist immer der Fall, denn egal, ob man eine gerade oder ungerade Zahl einfügt, sobald man sie mit <lime>2</lime> multipliziert, ist sie immer gerade. Daher hat sie nach der Division durch <lime>2</lime> immer einen Rest von <lime>0</lime>. Die beiden Funktionen dienen lediglich dazu, dass Kara zum Pilz/Blatt geht.";
 InfoDay18 = "Sehr gut! <br> Denn bei jedem Durchlauf des <purple>for</purple>-Loops wird die Zweierpotenz des Wertes <lightblue>i</lightblue> genommen und zur <lightblue>zahl</lightblue> dazu addiert. <br><br>0&#178; = 0 <br>1&#178; = 1<br>2&#178; = 4<br><br>insgesamt <lime>5</lime>";
-InfoDay19 = "1";
+InfoDay19 = "Richtig! <br> Denn in der Funktion wird überprüft, ob hinter Kara ein Blatt liegt. Dafür dreht sich Kara um 180° und geht ein Feld nach vorne. Wenn Kara nun auf einem Feld steht, gibt die Funktion den Wert <blue>True</blue> zurück, andernfalls den Wert <blue>False</blue>. Dannach soll sich Kara dreht und ein Feld nach vorne gehen dies geschied allerdings erst, nachdem der Wert zurückgegeben wurde. Dadurch dreht sich Kara nie zurück und geht nur <lime>3</lime> Felder nach vorne. Da die Welt dafür nicht ausreicht, geht Kara auf der gegenüberliegenden Seite weiter, wodurch er auf der rechten Seite des Baumes endet.";
 InfoDay20 = "1";
 InfoDay21 = "1";
 InfoDay22 = "1";
