@@ -19,7 +19,7 @@ Day18 = 2;
 Day19 = 1;
 Day20 = 3;
 Day21 = 3;
-Day22 = 0;//
+Day22 = 3;
 Day23 = 0;//
 Day24 = 5;
 
@@ -44,7 +44,7 @@ InfoDay18 = "Sehr gut! <br> Denn bei jedem Durchlauf des <purple>for</purple>-Lo
 InfoDay19 = "Richtig! <br> Denn in der Funktion wird überprüft, ob hinter Kara ein Blatt liegt. Dafür dreht sich Kara um 180° und geht ein Feld nach vorne. Wenn Kara nun auf einem Feld steht, gibt die Funktion den Wert <blue>True</blue> zurück, andernfalls den Wert <blue>False</blue>. Dannach soll sich Kara dreht und ein Feld nach vorne gehen dies geschied allerdings erst, nachdem der Wert zurückgegeben wurde. Dadurch dreht sich Kara nie zurück und geht nur <lime>3</lime> Felder nach vorne. Da die Welt dafür nicht ausreicht, geht Kara auf der gegenüberliegenden Seite weiter, wodurch er auf der rechten Seite des Baumes endet.";
 InfoDay20 = "Richtig! <br> Denn solange Kara nicht vor einem Baum steht, überprüft er, ob ein Baum hinter ihm steht. Dafür dreht er sich um 180° und schaut, ob ein Baum vor ihm steht. Danach dreht er sich wieder zurück. Wenn nun ein Baum hinter ihm ist, geht er ein Feld nach vorne. Da nur auf dem ersten Feld ein Baum hinter ihm ist, geht er nur dann ein Feld nach vorne, danach bleibt er stehen.";
 InfoDay21 = "Sehr gut! <br> Denn die Funktion gibt den Wert der Rechnung <br> f<yellow>(</yellow><lightblue>x</lightblue><yellow>)</yellow>=−<yellow>(</yellow><lightblue>x</lightblue> − <lime>5</lime><yellow>)</yellow><lime>&#178; </lime>+ <lime>9</lime> aus. Dabei wird die Funktion mit den Werten <lime>1</lime>-<lime>9</lime> aufgerufen. Nach jedem Durchgang wird das Ergebnis der Rechnung an das Array angehängt. Das Array sieht dann am Ende wie folgt aus: <br><yellow>[</yellow><lime>-7</lime>, <lime>0</lime>, <lime>5</lime>, <lime>8</lime>, <lime>9</lime>, <lime>8</lime>, <lime>5</lime>, <lime>0</lime>, <lime>-7</lime><yellow>]</yellow> Nun wird die Mitte des Arrays genommen und entsprechend viele Blätter hingelegt, das sind <lime>9</lime>.";
-InfoDay22 = "1";
+InfoDay22 = "Korrekt! <br> Denn der &quot;<purple>for</purple>-Loop&quot; sorgt dafür, dass Kara mit jedem Durchgang ein Feld nach vorne und ein Feld nach oben geht, also eine Treppenstufe. Um nun bis zum Baum zu kommen, braucht er <lime>6</lime> Stufen.";
 InfoDay23 = "1";
 InfoDay24 = "";
 
