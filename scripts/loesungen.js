@@ -20,16 +20,16 @@ Day19 = 1;
 Day20 = 3;
 Day21 = 3;
 Day22 = 3;
-Day23 = 0;//
+Day23 = 1;
 Day24 = 5;
 
-InfoDay1 = "Richtig! </br> Kara lauft 5 Felder nach vorn, also bis zum Baum. Jedes Mal, wenn Kara auf ein Feld geht, überprüft er ob auf dem Feld ein Blatt liegt, sollte dies der Fall sein, wird die variable &quot;<lightblue>Blatt_war_auf_dem_weg</lightblue>&quot; auf <blue>True</blue> (Wahr) gesetzt. Am Baum angekommen, überprüft Kara ob die Variable &quot;<lightblue>Blatt_war_auf_dem_weg</lightblue>&quot; auf <blue>True</blue> (Wahr) gesetzt ist, sollte dies der Fall sein dreht sich Kara nach Links andernfalls nach rechts.";
-InfoDay2 = "Richtig! </br> Kara lauft bis er am Baum ankommt, dabei wird jedes Mal überprüft ob auf dem Feld ein Blatt liegt, sollte dies der Fall sein, wird die Variable &quot;<lightblue>Blaetter</lightblue>&quot; um <lime>1</lime> erhöht. Am Baum angekommen, dreht sich Kara so oft um 90° nach Links wie die Variable &quot;<lightblue>Blaetter</lightblue>&quot; angibt. Da nur überprüft wird, wenn Kara nicht vor dem Baum ist, wir das Blatt vor dem Baum nicht mitgezählt.";
-InfoDay3 = "Korrekt! </br> Kara legt zuerst eine Linie aus Blättern, die so lang ist wie die Variable &quot;<lightblue>breite</lightblue>&quot; angibt. Danach geht Kara die Linie wieder zurück und rückt in die nächste Zeile vor, dies wiederholt Kara so oft wie die Variable &quot;<lightblue>hoehe</lightblue>&quot; angibt. Da &quot;<lightblue>hoehe</lightblue>&quot; mal <lime>2</lime> gerecht wird ist sie <lime>8</lime>, also werden 8X6 Blätter gelegt. (48) ";
-InfoDay4 = "Gut gemacht! </br> Kara geht immer ein Feld nach vorne, wenn ein Mushroom (Pilz) vor ihm ist oder wenn dort keiner ist, also immer. Bei jedem Schritt überprüft er ob ein Blatt unter ihm ist, wenn dies der Fall ist, nimmt er es auf. Wenn Kara auf dem Feld vor dem ersten Pilz ist, geht er ein Feld nach vorne uns schiebt den Pilz mit nach vorne, da Kara aber nur ein Pilz zurzeit schieben kann, kommt es beim nächsten versuch nach vorne zu gehen zu einem Error (Fehler), da Kara versucht zwei Pilze zu schieben.";
-InfoDay5 = "Richtig! </br> Kara schaut ob auf dem Feld, wo er steht, bereits ein Blatt liegt, sollte dies der Fall sein, nimmt der das Blatt auf, andernfalls legt er ein Blatt hin. Insgesamt gibt es <lime>3</lime> Zeilen wo <lime>4</lime> Blätter fehlen und <lime>2</lime> Zeilen wo <lime>5</lime> Blätter fehlen also kann man die Fehlenden Blätter sehr leicht ausrechnen: </br> </br> <lime>3</lime> x <lime>4</lime> + <lime>2</lime> x <lime>5</lime> = <lime>22</lime>";
-InfoDay6 = "Sehr gut! </br> Die Variable &quot;<lightblue>Variable</lightblue>&quot; bekommt am Beginn den String-Wert: &quot;<orange><code>&quot;True&quot;</code></orange>&quot;. Bei der if/else Abfrage wird dann überprüft, ob der Wert von &quot;<lightblue>Variable</lightblue>&quot; gleich zu True (Wahr) ist, dies ist nicht der Fall, da True eine ein Boolean ist und das die Variable ein String darstellt. </br> (String &#8800; Boolean)";
-InfoDay7 = "Richtig! </br> Denn die for-Zählschläfe wiederholt den Code in ihr 8-mal, dabei hat &quot;<lightblue>i</lightblue>&quot; immer einen höheren Wert, also im ersten Durchgang ein Wert von: <lime>0</lime>, im zweiten einen Wert von: <lime>1</lime>, im dritten ein Wert von: <lime>2</lime> und immer so weiter. In der Zählschleife wird nun jedes Mal überprüft, ob der Wert an der Stelle im <lightblue>array</lightblue> den Wert <lime>1</lime>, hat. Sollte dies der Fall sein, legt Kara ein Blatt. Anschließend geht Kara immer ein Feld nach vorne.";
+InfoDay1 = "Richtig! <br> Kara lauft 5 Felder nach vorn, also bis zum Baum. Jedes Mal, wenn Kara auf ein Feld geht, überprüft er ob auf dem Feld ein Blatt liegt, sollte dies der Fall sein, wird die variable &quot;<lightblue>Blatt_war_auf_dem_weg</lightblue>&quot; auf <blue>True</blue> (Wahr) gesetzt. Am Baum angekommen, überprüft Kara ob die Variable &quot;<lightblue>Blatt_war_auf_dem_weg</lightblue>&quot; auf <blue>True</blue> (Wahr) gesetzt ist, sollte dies der Fall sein dreht sich Kara nach Links andernfalls nach rechts.";
+InfoDay2 = "Richtig! <br> Kara lauft bis er am Baum ankommt, dabei wird jedes Mal überprüft ob auf dem Feld ein Blatt liegt, sollte dies der Fall sein, wird die Variable &quot;<lightblue>Blaetter</lightblue>&quot; um <lime>1</lime> erhöht. Am Baum angekommen, dreht sich Kara so oft um 90° nach Links wie die Variable &quot;<lightblue>Blaetter</lightblue>&quot; angibt. Da nur überprüft wird, wenn Kara nicht vor dem Baum ist, wir das Blatt vor dem Baum nicht mitgezählt.";
+InfoDay3 = "Korrekt! <br> Kara legt zuerst eine Linie aus Blättern, die so lang ist wie die Variable &quot;<lightblue>breite</lightblue>&quot; angibt. Danach geht Kara die Linie wieder zurück und rückt in die nächste Zeile vor, dies wiederholt Kara so oft wie die Variable &quot;<lightblue>hoehe</lightblue>&quot; angibt. Da &quot;<lightblue>hoehe</lightblue>&quot; mal <lime>2</lime> gerecht wird ist sie <lime>8</lime>, also werden 8X6 Blätter gelegt. (48) ";
+InfoDay4 = "Gut gemacht! <br> Kara geht immer ein Feld nach vorne, wenn ein Mushroom (Pilz) vor ihm ist oder wenn dort keiner ist, also immer. Bei jedem Schritt überprüft er ob ein Blatt unter ihm ist, wenn dies der Fall ist, nimmt er es auf. Wenn Kara auf dem Feld vor dem ersten Pilz ist, geht er ein Feld nach vorne uns schiebt den Pilz mit nach vorne, da Kara aber nur ein Pilz zurzeit schieben kann, kommt es beim nächsten versuch nach vorne zu gehen zu einem Error (Fehler), da Kara versucht zwei Pilze zu schieben.";
+InfoDay5 = "Richtig! <br> Kara schaut ob auf dem Feld, wo er steht, bereits ein Blatt liegt, sollte dies der Fall sein, nimmt der das Blatt auf, andernfalls legt er ein Blatt hin. Insgesamt gibt es <lime>3</lime> Zeilen wo <lime>4</lime> Blätter fehlen und <lime>2</lime> Zeilen wo <lime>5</lime> Blätter fehlen also kann man die Fehlenden Blätter sehr leicht ausrechnen: </br> </br> <lime>3</lime> x <lime>4</lime> + <lime>2</lime> x <lime>5</lime> = <lime>22</lime>";
+InfoDay6 = "Sehr gut! <br> Die Variable &quot;<lightblue>Variable</lightblue>&quot; bekommt am Beginn den String-Wert: &quot;<orange><code>&quot;True&quot;</code></orange>&quot;. Bei der if/else Abfrage wird dann überprüft, ob der Wert von &quot;<lightblue>Variable</lightblue>&quot; gleich zu True (Wahr) ist, dies ist nicht der Fall, da True eine ein Boolean ist und das die Variable ein String darstellt. </br> (String &#8800; Boolean)";
+InfoDay7 = "Richtig! <br> Denn die for-Zählschläfe wiederholt den Code in ihr 8-mal, dabei hat &quot;<lightblue>i</lightblue>&quot; immer einen höheren Wert, also im ersten Durchgang ein Wert von: <lime>0</lime>, im zweiten einen Wert von: <lime>1</lime>, im dritten ein Wert von: <lime>2</lime> und immer so weiter. In der Zählschleife wird nun jedes Mal überprüft, ob der Wert an der Stelle im <lightblue>array</lightblue> den Wert <lime>1</lime>, hat. Sollte dies der Fall sein, legt Kara ein Blatt. Anschließend geht Kara immer ein Feld nach vorne.";
 InfoDay8 = "Richtig! <br> Denn man kann von der Abfrage vom &quot;<purple>while</purple>-Loop&quot; ein Großteil entfernen, um genau zu sein alles hinter dem &quot;<lightlightblue>False</lightlightblue>&quot;, denn man überprüft, ob &quot;<lightlightblue>False</lightlightblue>&quot; den Wert &quot;<lightlightblue>False</lightlightblue>&quot; hat (was es immer hat) und ob Kara nicht vor einem Baum steht, da &quot;<lightlightblue>False</lightlightblue>&quot; aber schon ausreicht, dass es nicht ausgeführt wird, können wir den Rest wegnehmen, dann steht dort nur noch: <br> <br> <purple>while</purple> <lightlightblue>False</lightlightblue>: <br><br>Und dies sorgt dafür das der Code im &quot;<purple>while</purple>-Loop&quot; nie ausgeführt wird, und damit auch dafür das Kara sich nie bewegt.<br> <br> <purple>while</purple> <lightlightblue>True</lightlightblue>: <br><br>Würde wiederrum dafür sorgen, das der Code unendlich oft ausgeführt werden würde.";
 InfoDay9 = "Sehr gut! <br> Denn Python versucht, die &quot;<lightblue>Variable1</lightblue>&quot; neu zuzuweisen, und zwar mit dem Ergebnis einer Berechnung, die einen String und eine Zahl enthält – also einen Text und eine Zahl. Dies ist jedoch nicht möglich und führt zu einem Fehler (Error). Das Programm wird an dieser Stelle abgebrochen, noch bevor es das if-Statement erreichen kann.";
 InfoDay10 = "Korrekt! <br> Denn der &quot;<purple>while</purple>-Loop&quot; wiederholt den Code, der in ihm ist, bis Kara auf einem Blatt steht. Dabei überprüft Kara bei jeden Feld, ob ein Pilz und/oder ein Baum links oder rechts steht. Dafür dreht er sich erst nach links und schaut, ob ein Baum oder Pilz vor ihm steht, wenn dies der Fall ist, wird die dem entsprechende Variable um <lime>1</lime> erhöht. Anschließend dreht sich Kara um 180° und schaut wieder, ob ein Baum oder Pilz vor ihm steht und addiert wieder zu der dementsprechenden Variable <lime>1</lime> dazu. Zuletzt dreht sich Kara wieder in seine ausgangs Position, und geht ein Feld nach vorne, dort wiederholt sich der Vorgang. ";
@@ -45,7 +45,7 @@ InfoDay19 = "Richtig! <br> Denn in der Funktion wird überprüft, ob hinter Kara
 InfoDay20 = "Richtig! <br> Denn solange Kara nicht vor einem Baum steht, überprüft er, ob ein Baum hinter ihm steht. Dafür dreht er sich um 180° und schaut, ob ein Baum vor ihm steht. Danach dreht er sich wieder zurück. Wenn nun ein Baum hinter ihm ist, geht er ein Feld nach vorne. Da nur auf dem ersten Feld ein Baum hinter ihm ist, geht er nur dann ein Feld nach vorne, danach bleibt er stehen.";
 InfoDay21 = "Sehr gut! <br> Denn die Funktion gibt den Wert der Rechnung <br> f<yellow>(</yellow><lightblue>x</lightblue><yellow>)</yellow>=−<yellow>(</yellow><lightblue>x</lightblue> − <lime>5</lime><yellow>)</yellow><lime>&#178; </lime>+ <lime>9</lime> aus. Dabei wird die Funktion mit den Werten <lime>1</lime>-<lime>9</lime> aufgerufen. Nach jedem Durchgang wird das Ergebnis der Rechnung an das Array angehängt. Das Array sieht dann am Ende wie folgt aus: <br><yellow>[</yellow><lime>-7</lime>, <lime>0</lime>, <lime>5</lime>, <lime>8</lime>, <lime>9</lime>, <lime>8</lime>, <lime>5</lime>, <lime>0</lime>, <lime>-7</lime><yellow>]</yellow> Nun wird die Mitte des Arrays genommen und entsprechend viele Blätter hingelegt, das sind <lime>9</lime>.";
 InfoDay22 = "Korrekt! <br> Denn der &quot;<purple>for</purple>-Loop&quot; sorgt dafür, dass Kara mit jedem Durchgang ein Feld nach vorne und ein Feld nach oben geht, also eine Treppenstufe. Um nun bis zum Baum zu kommen, braucht er <lime>6</lime> Stufen.";
-InfoDay23 = "1";
+InfoDay23 = "Richtig! <br> Denn die Funktion &quot;<lightyellow>_ist_blatt_links</lightyellow>&quot; gibt nie den Wert &quot;<lightblue>Blatt_links</lightblue>&quot; zurück. Dadurch wird der Standardwert von <lightlightblue>False</lightlightblue> genommen, und der Code im <purple>while</purple>-Loop wird nie ausgeführt. Kara bewegt sich daher nicht von der Stelle.";
 InfoDay24 = "";
 
 Falsch1 = "<red>Leider Falsch, versuche es noch einmal!</red>";
@@ -81,7 +81,9 @@ function a() {
 }
 
 function b() {
-    if (window[`Day${PageDate}`] == 2) {
+    if (window[`Day${PageDate}`] == 6) {
+        window.open('../thx.html', '_self').c;
+    } else if (window[`Day${PageDate}`] == 2) {
         console.log(window[`InfoDay${PageDate}`]);
         Info.innerHTML = window[`InfoDay${PageDate}`];
         Info.style.display = "block";
@@ -95,7 +97,9 @@ function b() {
 }
 
 function c() {
-    if (window[`Day${PageDate}`] == 3) {
+    if (window[`Day${PageDate}`] == 7) {
+        window.open('../thx.html', '_self').c;
+    } else if (window[`Day${PageDate}`] == 3) {
         console.log(window[`InfoDay${PageDate}`]);
         Info.innerHTML = window[`InfoDay${PageDate}`];
         Info.style.display = "block";
@@ -109,7 +113,9 @@ function c() {
 }
 
 function d() {
-    if (window[`Day${PageDate}`] == 4) {
+    if (window[`Day${PageDate}`] == 8) {
+        window.open('../thx.html', '_self').c;
+    } else if (window[`Day${PageDate}`] == 4) {
         console.log(window[`InfoDay${PageDate}`]);
         Info.innerHTML = window[`InfoDay${PageDate}`];
         Info.style.display = "block";
