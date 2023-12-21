@@ -1,17 +1,3 @@
-/*
-
-. = class
-# = id
-
-CHANGE_HERE{
-
-}
-@media screen and (max-width: 1080){
-    CHANGE_HERE{
-
-    }
-}
-*/
 body{
     background: rgb(122, 122, 122);
     color: rgb(255, 255, 255);
