@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Coding im Advent | Day X</title>
+    <meta name="day" content="5">
+    <link rel="icon" type="image/png" href="../../../images/icons/home.png">
+    <link rel="manifest" href="../../../msc/site.webmanifest">
+    <link rel="stylesheet" href="../../../styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../images/apple-touch-icon/apple-touch-icon.png">
+</head>
+<body>
+    <header>
+        <center><h1 id="pagetitle" style="margin-top: 10px; margin-bottom: 6px;">Coding im Advent | Tag X</h1></center>
+    </header>
+    <header>
+        <left><nav><a class="menu" href="" id="LastDay">Last Day</a></nav></left>
+        <center><nav><a class="menu" href="../../../index.html" id="Home">Home</a></nav></center>
+        <right><nav><a class="menu" href="" id="NextDay">Next Day</a></nav></right>
+    </header>
+    <aufgabe>
+        <h3>Das große Schachbrett</h3>
+        <br>Wie viele Blätter legt Kara auf dem Weg durch das Schachbrett?
+        <br>
+        <br>Schaue dir den Code an und versuche die Lösung zu finden.
+    </aufgabe>
+    <img src="../images/days/day5.1.png" alt="Bild der PythonKara Welt">
+    <code><pre><text id="code">
+for i in range(5):
+    for j in range(9):
+        if kara.onLeaf():
+            kara.removeLeaf()
+        else:
+            kara.putLeaf()
+        kara.move()
+
+    kara.turnLeft()
+    kara.turnLeft()
+
+    for j in range(9):
+        kara.move()
+
+    kara.turnLeft()
+    kara.move()
+    kara.turnLeft()
+    </text></pre></code>
+<loesungen>
+    <h2>A) 4&nbsp;&nbsp;&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) 12&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) 22&nbsp; <button onclick="c()">C</button></h2>
+    <h2>D) 44&nbsp; <button onclick="d()">D</button></h2>
+</loesungen>
+
+    <info>
+        <loesungtext id="Info">
+            
+        </loesungtext>
+    </info>
+</body>
+<script src="../../../scripts/time.js"></script>
+<script src="../../../scripts/title.js"></script>
+<script src="../../../scripts/nav.js"></script>
+<script src="../scripts/code.js"></script>
+<script src="../scripts/loesungen.js"></script>
+</html>

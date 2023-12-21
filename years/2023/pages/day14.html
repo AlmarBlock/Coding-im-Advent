@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Coding im Advent | Tag X</title>
+    <meta name="day" content="14">
+    <link rel="icon" type="image/png" href="../../../images/icons/home.png">
+    <link rel="manifest" href="../../../msc/site.webmanifest">
+    <link rel="stylesheet" href="../../../styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../images/apple-touch-icon/apple-touch-icon.png">
+</head>
+<body>
+    <header>
+        <center><h1 id="pagetitle" style="margin-top: 10px; margin-bottom: 6px;">Coding im Advent | Tag X</h1></center>
+    </header>
+    <header>
+        <left><nav><a class="menu" href="" id="LastDay">Last Day</a></nav></left>
+        <center><nav><a class="menu" href="../../../index.html" id="Home">Home</a></nav></center>
+        <right><nav><a class="menu" href="" id="NextDay">Next Day</a></nav></right>
+    </header>
+    <info>
+        <text>
+            <h3>&#x26A0; Wichtig &#x26A0;</h3>
+            <br>
+            Die Lösung für diesen Tag enthielt gravierende Fehler, die nun behoben sind.
+        </text>
+    </info>
+    <aufgabe>
+        <h3>Zeichenkunst</h3>
+        <br>Wie viele Blätter legt Kara hin?
+        <br>
+        <br>Schaue dir den Code an und versuche die Lösung zu finden.
+    </aufgabe>
+    <img src="../images/days/day14.1.png" alt="Bild der PythonKara Welt">
+            <info>
+            <text>
+                <h3>&#x26A0; Info &#x26A0;</h3>
+                <br>
+                <infoCode><lightblue>number</lightblue><white> % </white><lime>2</lime></infoCode> gibt den Rest der Rechnung <infoCode><lightblue>number</lightblue></infoCode> durch <infoCode><lime>2</lime></infoCode> an.
+            </text>
+        </info>
+    <code><pre><text id="code">
+number = 0
+
+for i in range(8):
+    number += 1
+
+    if number % 2 == 0:
+        number += 2
+
+for i in range(int(number / 2)):
+    kara.putLeaf()
+    kara.move()
+    </text></pre></code>
+<loesungen>
+    <h2>A) 0 Blätter&nbsp;&nbsp;&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) 4 Blätter&nbsp;&nbsp;&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) 8 Blätter&nbsp;&nbsp;&nbsp; <button onclick="c()">C</button></h2>
+    <h2>D) 13 Blätter&nbsp; <button onclick="d()">D</button></h2>
+</loesungen>
+
+    <info>
+        <loesungtext id="Info">
+            
+        </loesungtext>
+    </info>
+</body>
+<script src="../../../scripts/time.js"></script>
+<script src="../../../scripts/title.js"></script>
+<script src="../../../scripts/nav.js"></script>
+<script src="../scripts/code.js"></script>
+<script src="../scripts/loesungen.js"></script>
+</html>

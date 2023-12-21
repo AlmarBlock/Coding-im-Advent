@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Coding im Advent | Tag X</title>
+    <meta name="day" content="24">
+    <link rel="icon" type="image/png" href="../../../images/icons/home.png">
+    <link rel="manifest" href="../../../msc/site.webmanifest">
+    <link rel="stylesheet" href="../../../styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../images/apple-touch-icon/apple-touch-icon.png">
+</head>
+<body>
+    <header>
+        <center><h1 id="pagetitle" style="margin-top: 10px; margin-bottom: 6px;">Coding im Advent | Tag X</h1></center>
+    </header>
+    <header>
+        <left><nav><a class="menu" href="" id="LastDay">Last Day</a></nav></left>
+        <center><nav><a class="menu" href="../../../index.html" id="Home">Home</a></nav></center>
+        <right><nav><a class="menu" href="" id="NextDay">Next Day</a></nav></right>
+    </header>
+    <aufgabe>
+        <h3>Picasso?!</h3>
+        <br>Welches Symbol zeichnet Kara?
+        <br>
+        <br>Schaue dir den Code an und versuche die Lösung zu finden.
+    </aufgabe>
+    <img src="../images/days/day24.1.png" alt="Bild der PythonKara Welt">
+    <code><pre><text id="code">
+bild = [
+    [0, 0, 1, 1, 0, 1, 1, 0, 0],
+    [0, 0, 0, 1, 1, 1, 0, 0, 0],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1],
+    [1, 1, 1, 1, 0, 1, 1, 1, 1]
+]
+
+for i in range(11):
+    for j in range(9):
+        if bild[i][j] == 0:
+            kara.move()
+        if bild[i][j] == 1:
+            kara.putLeaf()
+            kara.move()
+
+    kara.turnLeft()
+    kara.turnLeft()
+
+    for n in range(9):
+        kara.move()
+
+    kara.turnLeft()
+    kara.move()
+    kara.turnLeft()
+    </text></pre></code>
+<loesungen>
+    <h2>A) Ein Geschenk&nbsp; <button onclick="a()">A</button></h2>
+    <h2>B) Eine Kugel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="b()">B</button></h2>
+    <h2>C) Ein Baum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="c()">C</button></h2>
+    <h2>D) Ein Stern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button onclick="d()">D</button></h2>
+</loesungen>
+
+    <info>
+        <loesungtext id="Info">
+            
+        </loesungtext>
+    </info>
+</body>
+<script src="../../../scripts/time.js"></script>
+<script src="../../../scripts/title.js"></script>
+<script src="../../../scripts/nav.js"></script>
+<script src="../scripts/code.js"></script>
+<script src="../scripts/loesungen.js"></script>
+</html>
