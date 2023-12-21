@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Coding im Advent</title>
+    <link rel="icon" type="image/png" href="./images/icons/home.png">
+    <link rel="manifest" href="./msc/site.webmanifest">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/timer.css">
+    <style>
+        .menu {
+            display: none;
+        }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon/apple-touch-icon.png">
+</head>
+<body>
+    <header>
+    <center><h1>Coding im Advent</h1></center>
+    </header>
+    <h1></h1>
+<indexTimer id="indexTimer">
+    <center><h1 style="font-size: 35px;">Erstes Türchen in:</h1></center>
+    <center>
+        <div id="clock" class="clock">
+          <div class="boxen">
+            <div id="clock-days" class="clock-digits">00</div>
+            <div class="clock-name">Tage</div>
+          </div>
+          <div class="boxen">
+            <div id="clock-hours" class="clock-digits">00</div>
+            <div class="clock-name">Stunden</div>
+          </div>
+          <div class="boxen">
+            <div id="clock-minutes" class="clock-digits">00</div>
+            <div class="clock-name">Minuten</div>
+          </div>
+          <div class="boxen">
+            <div id="clock-seconds" class="clock-digits">00</div>
+            <div class="clock-name">Sekunden</div>
+          </div>
+        </div>
+    </center>
+</indexTimer>
+    <center><nav>
+    <a class="menu"  id="day1" href="./2023/pages/day1.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day2" href="./2023/pages/day2.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day3" href="./2023/pages/day3.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day4" href="./2023/pages/day4.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day5" href="./2023/pages/day5.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day6" href="./2023/pages/day6.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day7" href="./2023/pages/day7.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day8" href="./2023/pages/day8.html" >Aufgabe des Tages</a>
+    <a class="menu"  id="day9" href="./2023/pages/day9.html" >Aufgabe des Tages</a>
+    <a class="menu" id="day10" href="./2023/pages/day10.html">Aufgabe des Tages</a>
+    <a class="menu" id="day11" href="./2023/pages/day11.html">Aufgabe des Tages</a>
+    <a class="menu" id="day12" href="./2023/pages/day12.html">Aufgabe des Tages</a>
+    <a class="menu" id="day13" href="./2023/pages/day13.html">Aufgabe des Tages</a>
+    <a class="menu" id="day14" href="./2023/pages/day14.html">Aufgabe des Tages</a>
+    <a class="menu" id="day15" href="./2023/pages/day15.html">Aufgabe des Tages</a>
+    <a class="menu" id="day16" href="./2023/pages/day16.html">Aufgabe des Tages</a>
+    <a class="menu" id="day17" href="./2023/pages/day17.html">Aufgabe des Tages</a>
+    <a class="menu" id="day18" href="./2023/pages/day18.html">Aufgabe des Tages</a>
+    <a class="menu" id="day19" href="./2023/pages/day19.html">Aufgabe des Tages</a>
+    <a class="menu" id="day20" href="./2023/pages/day20.html">Aufgabe des Tages</a>
+    <a class="menu" id="day21" href="./2023/pages/day21.html">Aufgabe des Tages</a>
+    <a class="menu" id="day22" href="./2023/pages/day22.html">Aufgabe des Tages</a>
+    <a class="menu" id="day23" href="./2023/pages/day23.html">Aufgabe des Tages</a>
+    <a class="menu" id="day24" href="./2023/pages/day24.html">Aufgabe des Tages</a>
+    </nav></center>
+    <br>
+    <center>
+      <direktjump>
+        Tag: <input id="textbox_id" type="number" minlength="1" maxlength="2" pattern="[0-9]*" inputmode="numeric"></input><button onclick="loadpage()">Zur&nbsp;Aufgabe</button>
+      </direktjump>
+    </center>
+    <br>
+    <infos>
+      <text>
+        <h3>Infos:</h3>
+        In diesem Adventskalender geht es darum, jeden Tag eine neue Aufgabe zu lösen. 
+        <year class="2023">Die Aufgaben sind rund um  <a href="https://www.swisseduc.ch/informatik/karatojava/pythonkara/">Python Kara</a> aufgebaut. Python Kara wird zur Lösung jedoch nicht benötigt. Lediglich grundlegendes Wissen über Python und das Befehlset von Python Kara sind erforderlich. (Einsteigerkenntnisse in Englisch sind zu empfehlen, aber nicht unbedingt notwendig.)</year>
+        <br>
+        <br>
+        Coding im Advent ist inspiriert von <a href="https://adventofcode.com">Advent of Code</a> und <a href="https://www.mathe-im-advent.de/">Mathe im Advent</a>, hat jedoch nichts mit beiden Genannten zu tun.
+      </text>
+      <text>
+        <h3>Wichtiges:</h3>
+        <li>Diese Aufgaben sind als leichte Rätsel gedacht. Bitte verwendet keine KI-Hilfsmittel, um die Aufgaben zu lösen.</li>
+        <br>
+        <li>Die Aufgaben können jederzeit ab dem jeweiligen Tag um 0 Uhr gelöst werden.</li>
+        <br>
+        <li>Alle Aufgaben der Vortage sind auch nachträglich noch einsehbar und lösbar.</li>
+      </text>
+      <text class="2023">
+        <h3>Weiteres:</h3>
+        Das kommplete Befehl Set von Python Kara ist hier zu finden: <a href="./2023/karainfos.html">Python Kara Befehl Set</a>
+      </text>
+  </infos>
+  <infos id="years">
+    <text>
+      <a href="./years.html">Letzte Jahre</a>
+    </text>  
+  </infos>
+</body>
+<script src="./scripts/time.js"></script>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/timerindex.js"></script>
+</html>

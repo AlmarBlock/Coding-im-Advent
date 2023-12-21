@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Coding im Advent | Tag X</title>
+    <meta name="day" content="1">
+    <link rel="icon" type="image/png" href="../../images/icons/home.png">
+    <link rel="manifest" href="../../msc/site.webmanifest">
+    <link rel="stylesheet" href="../../styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon/apple-touch-icon.png">
+</head>
+<body>
+    <header>
+        <center><h1 id="pagetitle" style="margin-top: 10px; margin-bottom: 6px;">Coding im Advent | Tag X</h1></center>
+    </header>
+    <header>
+        <left><nav><a class="menu" href="../index.html" id="LastDay">Last Day</a></nav></left>
+        <center><nav><a class="menu" href="../../index.html" id="Home">Home</a></nav></center>
+        <right><nav><a class="menu" href="../index.html" id="NextDay">Next Day</a></nav></right>
+    </header>
+    <aufgabe>
+        <h3>Ist der Weg schon sauber?</h3>
+        <br> In welche Richtung schaut Kara am end des Weges?
+        <br>
+        <br> Schaue dir den Code an und versuche die Lösung zu finden.
+    </aufgabe>
+    <img src="../images/days/day1.1.png" alt="Bild der PythonKara Welt">
+    <code><pre><text id="code">
+Blatt_war_auf_dem_weg = False
+
+for i in range(5):
+    kara.move()
+    
+    if kara.onLeaf():
+        Blatt_war_auf_dem_weg = True
+
+if Blatt_war_auf_dem_weg:
+    kara.turnRight()
+else:
+    kara.turnLeft()
+    </text></pre></code>
+<loesungen>
+    <h2>A) Schaut nach oben &nbsp;<button onclick="a()">A</button></h2>
+    <h2>B) Schaut nach unten <button onclick="b()">B</button></h2>
+</loesungen>
+
+    <info>
+        <loesungtext id="Info">
+            
+        </loesungtext>
+    </info>
+</body>
+<script src="../scripts/time.js"></script>
+<script src="../scripts/title.js"></script>
+<script src="../scripts/nav.js"></script>
+<script src="../scripts/code.js"></script>
+<script src="../scripts/loesungen.js"></script>
+</html>
