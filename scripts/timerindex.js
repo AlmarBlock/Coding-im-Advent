@@ -1,24 +1,3 @@
-const timer = document.getElementById('indexTimer');
-const years = document.getElementById("years");
-let yearText = document.getElementsByClassName("2023");
-const directJump = document.getElementsByTagName('direktjump')[0]
-
-if (month == 12) {
-  timer.style.display = "none";
-  years.style.display = "none";
-  directJump.style.display = "block";
-  for(let i = 0; i < yearText.length; i++) {
-    yearText[i].style.display = "block";
-  }
-} else {
-  for(let i = 0; i < yearText.length; i++) {
-    yearText[i].style.display = "none";
-  }
-  timer.style.display = "block";
-  years.style.display = "block";
-  directJump.style.display = "none";
-}
-
 let enddate = '2023/12/01 00:00';
 
 if (month !== 12) {
